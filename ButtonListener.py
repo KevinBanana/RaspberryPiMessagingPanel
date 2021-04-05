@@ -7,17 +7,28 @@ GPIO.setmode(GPIO.BOARD)
 
 ledGreenPin = 12
 ledRedPin = 18
-buttonPin = 16
+buttonMessage1 = 16
+buttonMessage2 = 11
+buttonMessage3 = 13
 
 GPIO.setup(ledRedPin, GPIO.OUT)
 GPIO.setup(ledGreenPin, GPIO.OUT)
-GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(buttonMessage1, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(buttonMessage2, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(buttonMessage3, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 while True:
-    buttonState = GPIO.input(buttonPin)
-    if buttonState == False:
+    button1State = GPIO.input(buttonMessage1)
+    button2State = GPIO.input(buttonMessage2)
+    button3State = GPIO.input(buttonMessage3)
+    if button1State == False or button2State == False or button3State == False:
         # TODO: Get message based on dial
-        message = "test"
+        if button1State == False:
+            message = "Message for button 1"
+        elif button2State == False:
+            message = "Message for button 2"
+        else:
+            message = "Message for button 3"
         is_sent = Messenger.send_message(message)
 
         if is_sent:
