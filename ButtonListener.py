@@ -1,4 +1,3 @@
-import os
 import RPi.GPIO as GPIO
 import Messenger
 from time import sleep
