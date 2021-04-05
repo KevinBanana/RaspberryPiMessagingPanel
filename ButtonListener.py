@@ -1,4 +1,6 @@
+import os
 import RPi.GPIO as GPIO
+import Messenger
 from time import sleep
 
 GPIO.setmode(GPIO.BOARD)
@@ -14,10 +16,11 @@ GPIO.setup(buttonPin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 while True:
     buttonState = GPIO.input(buttonPin)
     if buttonState == False:
-        # TODO: Contact messenger.py to send a message
-        result = False
+        # TODO: Get message based on dial
+        message = "test"
+        is_sent = Messenger.send_message(message)
 
-        if result:
+        if is_sent:
             GPIO.output(ledGreenPin, GPIO.HIGH)
         else:
             GPIO.output(ledRedPin, GPIO.HIGH)
