@@ -20,11 +20,10 @@ while True:
     button1State = GPIO.input(buttonMessage1)
     button2State = GPIO.input(buttonMessage2)
     button3State = GPIO.input(buttonMessage3)
-    if button1State == False or button2State == False or button3State == False:
-        # TODO: Get message based on dial
-        if button1State == False:
+    if not button1State or not button2State or not button3State:
+        if not button1State:
             message = "Message for button 1"
-        elif button2State == False:
+        elif not button2State:
             message = "Message for button 2"
         else:
             message = "Message for button 3"
