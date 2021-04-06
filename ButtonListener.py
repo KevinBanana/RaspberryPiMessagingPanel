@@ -6,9 +6,9 @@ GPIO.setmode(GPIO.BOARD)
 
 ledGreenPin = 12
 ledRedPin = 18
-buttonMessage1 = 16
-buttonMessage2 = 11
-buttonMessage3 = 13
+buttonMessage1 = 11
+buttonMessage2 = 13
+buttonMessage3 = 15
 
 GPIO.setup(ledRedPin, GPIO.OUT)
 GPIO.setup(ledGreenPin, GPIO.OUT)
