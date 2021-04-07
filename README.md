@@ -26,7 +26,7 @@
 ## About The Project
 
 
-<p id="demo"><a href="https://user-images.githubusercontent.com/59422394/113929641-4c9efb80-97be-11eb-90db-d421dcbb33b8.mp4"></a></p>
+<p id="demo"><a href="https://user-images.githubusercontent.com/59422394/113929641-4c9efb80-97be-11eb-90db-d421dcbb33b8.mp4">Video Demo</a></p>
 
 
 <img src="https://user-images.githubusercontent.com/59422394/113928968-76a3ee00-97bd-11eb-9cf5-9879cfbdbb97.png" width="488">
