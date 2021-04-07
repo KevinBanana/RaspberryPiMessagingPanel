@@ -25,7 +25,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Shot][product-screenshot]
+![image](https://user-images.githubusercontent.com/59422394/113928968-76a3ee00-97bd-11eb-9cf5-9879cfbdbb97.png)
+
 
 I created this project to have a quick way of messaging my girlfriend. It's primary purpose is to either text her
 "On my way!" when I head out the door or "I love you" whenever I'm thinking about her. I wanted this to be as easy
@@ -112,6 +113,5 @@ Project Link: [https://github.com/KevinBanana/RaspberryPiMessagingPanel](https:/
 [issues-url]: https://github.com/KevinBanana/repo/issues
 [license-url]: https://github.com/KevinBanana/repo/blob/master/LICENSE.txt
 [linkedin-url]: https://linkedin.com/in/KevinBanana
-[product-screenshot]: src/panel.png
 [setup-config]: src/configExample.png
 [ports-chart]: src/portChart.jpg
