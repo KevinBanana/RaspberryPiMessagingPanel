@@ -73,6 +73,7 @@ If you're using the trial, set up the destination phone numbers
 and auth token
 
 4. Create a file called config.py and save the previously gathered details like this
+
 ![Config screenshot][setup-config]
 
 5. Wire up your raspberry pi with 2 LEDs and 3 buttons on the corresponding GPIO ports:
