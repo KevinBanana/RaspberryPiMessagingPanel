@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://user-images.githubusercontent.com/59422394/113928968-76a3ee00-97bd-11eb-9cf5-9879cfbdbb97.png)
+![image](https://user-images.githubusercontent.com/59422394/113928968-76a3ee00-97bd-11eb-9cf5-9879cfbdbb97.png | width=100)
 
 
 I created this project to have a quick way of messaging my girlfriend. It's primary purpose is to either text her
