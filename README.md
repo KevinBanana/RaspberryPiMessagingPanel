@@ -13,7 +13,7 @@
     <a href="https://github.com/KevinBanana/RaspberryPiMessagingPanel"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/KevinBanana/RaspberryPiMessagingPanel">View Demo</a>
+    <a href="https://user-images.githubusercontent.com/59422394/113929641-4c9efb80-97be-11eb-90db-d421dcbb33b8.mp4">View Demo</a>
     ·
     <a href="https://github.com/KevinBanana/RaspberryPiMessagingPanel/issues">Report Bug</a>
     ·
@@ -26,7 +26,7 @@
 ## About The Project
 
 
-https://user-images.githubusercontent.com/59422394/113929641-4c9efb80-97be-11eb-90db-d421dcbb33b8.mp4
+<p id="demo"><a href="https://user-images.githubusercontent.com/59422394/113929641-4c9efb80-97be-11eb-90db-d421dcbb33b8.mp4"></a></p>
 
 
 <img src="https://user-images.githubusercontent.com/59422394/113928968-76a3ee00-97bd-11eb-9cf5-9879cfbdbb97.png" width="488">
