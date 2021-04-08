@@ -52,7 +52,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This guide assumes you already have your raspberry pi set up with an OS and that it is connected to the internet.
+This guide assumes you already have your Raspberry Pi set up with an OS and that it is connected to the internet. You'll need a basic understanding on how to wire the circuits on the breadboard, or you can copy my wiring from the images.
 You'll need a keyboard and mouse connected to it during the setup but after that you will not need any
 peripherals at all.
 
