@@ -80,7 +80,7 @@ and auth token
 
 ![Config screenshot][setup-config]
 
-You'll also need to go into Messenger.py and change the "to" argument in the API call. Alternatively, you can save your number under KEVIN_NUMBER on config.py to avoid having to modify Messenger.py
+You'll also need to go into Messenger.py and change the "to" argument in the API call. Alternatively, you can save your number under KEVIN_NUMBER in config.py to avoid having to modify Messenger.py
 
 5. Wire up your raspberry pi with 2 LEDs and 3 buttons on the corresponding GPIO ports:
 
