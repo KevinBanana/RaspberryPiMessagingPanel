@@ -76,9 +76,11 @@ If you're using the trial, set up the destination phone numbers
 3. Go to your twilio <a href=https://www.twilio.com/console>console</a> and get your trial number, account SID,
 and auth token
 
-4. Create a file called config.py and save the previously gathered details like this
+4. Create a file called config.py and save the previously gathered details like this.
 
 ![Config screenshot][setup-config]
+
+You'll also need to go into Messenger.py and change the "to" argument in the API call. Alternatively, you can save your number under KEVIN_NUMBER on config.py to avoid having to modify Messenger.py
 
 5. Wire up your raspberry pi with 2 LEDs and 3 buttons on the corresponding GPIO ports:
 
